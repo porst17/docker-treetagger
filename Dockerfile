@@ -1,5 +1,5 @@
 # temporary image
-FROM ubuntu:19.04 AS treetagger_builder
+FROM ubuntu:20.04 AS treetagger_builder
 
 # TreeTagger version
 ARG VERSION=3.2.2
